@@ -8,10 +8,6 @@
     "access": "public"
   },
   "main": "lib/index.js",
-  "dependencies": {
-    "@babel/helper-plugin-utils": "^7.0.0",
-    "lodash": "^4.17.11"
-  },
   "keywords": [
     "babel-plugin"
   ],
@@ -20,6 +16,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
-    "@babel/helper-plugin-test-runner": "^7.0.0"
+    "@babel/helper-plugin-test-runner": "^7.0.0",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "lodash": "^4.17.11"
   }
 }
